@@ -52,3 +52,11 @@ for (let i = 1; i <= 10; i++){
     opt.value = i
     sel.append(opt)
 }
+
+let txtSearch = document.querySelector('input[type=text]')
+let btn = document.querySelector('input[type=submit]')
+
+btn.addEventListener('click', (event)=>{
+    event.preventDefault()
+    let strTmp = txtSearch.value
+})
