@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(65, 92, 182, 0.74);
+}
+.div, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    margin-top: 45px;
+}
