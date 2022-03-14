@@ -44,3 +44,11 @@ fetch(`https://api.spoonacular.com/recipes/complexSearch?&apiKey=ae095ba3a39c4c0
         document.querySelector('.container').append(hr)
     });
 })
+let sel = document.querySelector('#sel')
+for (let i = 1; i <= 10; i++){
+    
+    let opt = document.createElement('option')
+    opt.innerText = i
+    opt.value = i
+    sel.append(opt)
+}
