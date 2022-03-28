@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body{
     background-color: rgba(65, 92, 182, 0.74);
     font-family: sans-serif;
@@ -18,4 +25,27 @@ input{
 }
 button{
     padding: 5px;
+}
+#inpt {
+    margin: 5px 0 5px 5px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: none;
+    outline: none;
+}
+#inptbtn {
+    margin: 5px 5px 5px 0;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    
+    flex-grow: 0;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
